@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,19 +22,34 @@
     </nav>
   </header>
 
-  <section>
-    <h2>Contacto</h2>
-    <form>
-      <p>Nombre:</p>
+
+  <h2 class="contacto">Formulario de Contacto</h2>
+  <form>
+    <div>
+      <label>Nombre:</label>
       <input type="text" />
-      <p>Correo Electronico:</p>
+    </div>
+    <div>
+      <label>Correo electrónico:</label>
       <input type="email" />
-      <p>Mensaje:</p>
-      <textarea name="mensaje"> </textarea>
-      <br>
-      <input type="submit" value="Enviar ahora" />
-    </form>
-  </section>
+    </div>
+    <div>
+      <label>Solicitud:</label>
+      <select>
+        <option>Selecciona</option>
+        <option>Compras</option>
+        <option>Consulta</option>
+        <option>Venta</option>
+      </select>
+    </div>
+    <div>
+      <label>Mensaje:</label>
+      <textarea></textarea>
+    </div>
+    <div class="button">
+      <button>Envia tu mensaje</button>
+    </div>
+  </form>
 
 
   <footer>Galería Anatómica</footer>
