@@ -56,7 +56,7 @@ section {
 }
 
 .contacto {
-  padding: 64px;
+  padding: 32px;
 }
 
 h2 {
@@ -107,7 +107,20 @@ textarea {
 }
 
 button {
-  margin-left: 0.5em;
+  margin-left: 0.2em;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 64px;
+}
+
+div.tel {
+  padding-right: 8px;
+}
+
+div.dir {
+  padding-left: 8px;
 }
 
 footer {
@@ -127,4 +140,10 @@ div.contenedor {
 div.contenedor>img {
   flex: 1 1 30%;
   margin: 1em;
+}
+
+section.contenedor1 {
+  display: flex;
+  padding: 0;
+  justify-content: center;
 }
